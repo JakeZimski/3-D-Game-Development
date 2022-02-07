@@ -15,6 +15,8 @@ public class MouseLook : MonoBehaviour
     private void Awake()
     {
         character = transform.parent; // gets reference to parent's transform
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame

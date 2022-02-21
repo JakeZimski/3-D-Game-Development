@@ -53,12 +53,16 @@
     <UnityVersion>2020.3.26f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\NodeScripts\DepthFirstSearch.cs" />
+    <Compile Include="Assets\NodeScripts\Node.cs" />
+    <Compile Include="Assets\SoccerScript\ObjectTeleport.cs" />
+    <Compile Include="Assets\SoccerScript\Kick.cs" />
     <Compile Include="Assets\PlayerController.cs" />
     <Compile Include="Assets\MouseLook.cs" />
-    <Compile Include="Assets\Kick.cs" />
-    <Compile Include="Assets\ObjectTeleport.cs" />
-    <Compile Include="Assets\Node.cs" />
-    <Compile Include="Assets\DepthFirstSearch.cs" />
+    <Compile Include="Assets\Interaction.cs" />
+    <Compile Include="Assets\Door.cs" />
+    <Compile Include="Assets\Health.cs" />
+    <Compile Include="Assets\DamageTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

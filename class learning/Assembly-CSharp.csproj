@@ -63,6 +63,7 @@
     <Compile Include="Assets\Door.cs" />
     <Compile Include="Assets\Health.cs" />
     <Compile Include="Assets\DamageTrigger.cs" />
+    <Compile Include="Assets\HealthPotion.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
